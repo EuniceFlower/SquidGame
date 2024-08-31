@@ -71,7 +71,7 @@ class Player {
         this.playerInfo.velocity = 0;
     }
     run() {
-        this.playerInfo.velocity = 0.1;
+        this.playerInfo.velocity = 0.04;
     }
     check() {
         if (this.playerInfo.velocity > 0 && !isLookingBackward) {
